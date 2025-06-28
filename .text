@@ -1,0 +1,17 @@
+sage-university/
+├── index.html
+├── css/
+│   ├── style.css
+│   └── animations.css
+├── js/
+│   ├── main.js
+│   └── carousel.js
+├── images/
+│   ├── campus.jpg
+│   ├── library.jpg
+│   ├── lab.jpg
+│   ├── sports.jpg
+│   ├── logo.png
+│   └── students-group.jpg
+└── courses.html
+

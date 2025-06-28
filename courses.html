@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Sage University Bhopal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="courses.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.LFoeVLYaG6BN57kwHnJCdQAAAA?pid=Api&P=0&h=180" alt="Sage University Logo" class="logo">
+                <div class="logo-text">
+                    <h1>SAGE UNIVERSITY</h1>
+                    <p>Bhopal, Madhya Pradesh</p>
+                </div>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html" class="active">Courses</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#campus-life">Campus Life</a></li>
+                    <li><a href="#placements">Placements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-btns">
+                    <a href="#apply-now" class="btn btn-primary">Apply Now</a>
+                    <div class="hamburger" id="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Courses Hero Section -->
+    <section class="courses-hero">
+        <div class="container">
+            <h1>Our Academic Programs</h1>
+            <p>Choose from a wide range of undergraduate, postgraduate and doctoral programs</p>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="all-courses">
+        <div class="container">
+            <div class="courses-filter">
+                <div class="filter-group">
+                    <label for="level">Level:</label>
+                    <select id="level">
+                        <option value="all">All Levels</option>
+                        <option value="undergraduate">Undergraduate</option>
+                        <option value="postgraduate">Postgraduate</option>
+                        <option value="doctoral">Doctoral</option>
+                        <option value="diploma">Diploma</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="discipline">Discipline:</label>
+                    <select id="discipline">
+                        <option value="all">All Disciplines</option>
+                        <option value="engineering">Engineering & Technology</option>
+                        <option value="management">Management</option>
+                        <option value="law">Law</option>
+                        <option value="design">Design</option>
+                        <option value="science">Science</option>
+                        <option value="arts">Arts & Humanities</option>
+                        <option value="health">Health Sciences</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="duration">Duration:</label>
+                    <select id="duration">
+                        <option value="all">All Durations</option>
+                        <option value="1">1 Year</option>
+                        <option value="2">2 Years</option>
+                        <option value="3">3 Years</option>
+                        <option value="4">4 Years</option>
+                        <option value="5">5 Years</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary" id="filter-btn">Filter Courses</button>
+            </div>
+
+            <div class="courses-grid">
+                <!-- Engineering & Technology -->
+                <div class="course-category">
+                    <h2 class="category-title">Engineering & Technology</h2>
+                    <div class="category-courses">
+                        <div class="detailed-course-card">
+                            <div class="course-header">
+                                <h3>B.Tech Computer Science & Engineering</h3>
+                                <span class="duration">4 Years</span>
+                            </div>
+                            <div class="course-body">
+                                <p class="course-description">This program provides in-depth knowledge of computer systems, software development, algorithms, and emerging technologies.</p>
+                                <div class="course-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <span>Degree: Bachelor of Technology</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span>Intake: 120 Seats</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-rupee-sign"></i>
+                                        <span>Fee: ₹1,20,000/year</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-clipboard-check"></i>
+                                        <span>Eligibility: 10+2 with 60% in PCM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline">Course Details</a>
+                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            </div>
+                        </div>
+
+                        <div class="detailed-course-card">
+                            <div class="course-header">
+                                <h3>B.Tech Artificial Intelligence & Machine Learning</h3>
+                                <span class="duration">4 Years</span>
+                            </div>
+                            <div class="course-body">
+                                <p class="course-description">Specialized program focusing on AI algorithms, machine learning models, neural networks, and their applications.</p>
+                                <div class="course-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <span>Degree: Bachelor of Technology</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span>Intake: 60 Seats</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-rupee-sign"></i>
+                                        <span>Fee: ₹1,50,000/year</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-clipboard-check"></i>
+                                        <span>Eligibility: 10+2 with 65% in PCM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline">Course Details</a>
+                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            </div>
+                        </div>
+
+                        <div class="detailed-course-card">
+                            <div class="course-header">
+                                <h3>B.Tech Electronics & Communication Engineering</h3>
+                                <span class="duration">4 Years</span>
+                            </div>
+                            <div class="course-body">
+                                <p class="course-description">Comprehensive program covering electronic systems, communication networks, signal processing, and embedded systems.</p>
+                                <div class="course-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <span>Degree: Bachelor of Technology</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span>Intake: 90 Seats</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-rupee-sign"></i>
+                                        <span>Fee: ₹1,10,000/year</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-clipboard-check"></i>
+                                        <span>Eligibility: 10+2 with 60% in PCM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline">Course Details</a>
+                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Management -->
+                <div class="course-category">
+                    <h2 class="category-title">Management</h2>
+                    <div class="category-courses">
+                        <div class="detailed-course-card">
+                            <div class="course-header">
+                                <h3>Bachelor of Business Administration (BBA)</h3>
+                                <span class="duration">3 Years</span>
+                            </div>
+                            <div class="course-body">
+                                <p class="course-description">Foundation program in business management covering marketing, finance, HR, and entrepreneurship.</p>
+                                <div class="course-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <span>Degree: Bachelor of Business Administration</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span>Intake: 120 Seats</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-rupee-sign"></i>
+                                        <span>Fee: ₹80,000/year</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-clipboard-check"></i>
+                                        <span>Eligibility: 10+2 with 50% in any stream</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline">Course Details</a>
+                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            </div>
+                        </div>
+
+                        <div class="detailed-course-card">
+                            <div class="course-header">
+                                <h3>MBA (Master of Business Administration)</h3>
+                                <span class="duration">2 Years</span>
+                            </div>
+                            <div class="course-body">
+                                <p class="course-description">Advanced program with specializations in Marketing, Finance, HR, IT, and International Business.</p>
+                                <div class="course-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <span>Degree: Master of Business Administration</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span>Intake: 180 Seats</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-rupee-sign"></i>
+                                        <span>Fee: ₹1,50,000/year</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-clipboard-check"></i>
+                                        <span>Eligibility: Bachelor's degree with 50%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline">Course Details</a>
+                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Law -->
+                <div class="course-category">
+                    <h2 class="category-title">Law</h2>
+                    <div class="category-courses">
+                        <div class="detailed-course-card">
+                            <div class="course-header">
+                                <h3>BA LLB (Hons.)</h3>
+                                <span class="duration">5 Years</span>
+                            </div>
+                            <div class="course-body">
+                                <p class="course-description">Integrated program combining arts and law with special focus on constitutional law, corporate law, and litigation.</p>
+                                <div class="course-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <span>Degree: Bachelor of Arts & Bachelor of Legislative Law</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span>Intake: 60 Seats</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-rupee-sign"></i>
+                                        <span>Fee: ₹1,00,000/year</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-clipboard-check"></i>
+                                        <span>Eligibility: 10+2 with 50% in any stream</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline">Course Details</a>
+                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design -->
+                <div class="course-category">
+                    <h2 class="category-title">Design</h2>
+                    <div class="category-courses">
+                        <div class="detailed-course-card">
+                            <div class="course-header">
+                                <h3>B.Des (Fashion Design)</h3>
+                                <span class="duration">4 Years</span>
+                            </div>
+                            <div class="course-body">
+                                <p class="course-description">Comprehensive program covering fashion illustration, textile science, garment construction, and fashion marketing.</p>
+                                <div class="course-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <span>Degree: Bachelor of Design</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span>Intake: 40 Seats</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-rupee-sign"></i>
+                                        <span>Fee: ₹1,20,000/year</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-clipboard-check"></i>
+                                        <span>Eligibility: 10+2 with 50% in any stream</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline">Course Details</a>
+                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Health Sciences -->
+                <div class="course-category">
+                    <h2 class="category-title">Health Sciences</h2>
+                    <div class="category-courses">
+                        <div class="detailed-course-card">
+                            <div class="course-header">
+                                <h3>B.Sc Nursing</h3>
+                                <span class="duration">4 Years</span>
+                            </div>
+                            <div class="course-body">
+                                <p class="course-description">Professional program preparing students for careers in nursing with clinical training and theoretical knowledge.</p>
+                                <div class="course-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <span>Degree: Bachelor of Science</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span>Intake: 60 Seats</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-rupee-sign"></i>
+                                        <span>Fee: ₹90,000/year</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-clipboard-check"></i>
+                                        <span>Eligibility: 10+2 with 50% in PCB</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-footer">
+                                <a href="#" class="btn btn-outline">Course Details</a>
+                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta" id="apply-now">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Need Help Choosing the Right Course?</h2>
+                <p>Our admission counselors are available to guide you through the selection process.</p>
+                <a href="#" class="btn btn-primary">Talk to Counselor</a>
+                <a href="#" class="btn btn-outline-white">Download Brochure</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo-container">
+                        <img src="http://www.indiafinder.in/assets/images/logo/thumbs/thumb__sage_512.jpg" alt="Sage University Logo" class="logo">
+                        <div class="logo-text">
+                            <h3>SAGE UNIVERSITY</h3>
+                            <p>Bhopal, Madhya Pradesh</p>
+                        </div>
+                    </div>
+                    <p>Sage University is committed to providing quality education and fostering innovation and research.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="#placements">Placements</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Academics</h3>
+                    <ul>
+                        <li><a href="#">Faculties</a></li>
+                        <li><a href="#">Departments</a></li>
+                        <li><a href="#">Academic Calendar</a></li>
+                        <li><a href="#">Examination</a></li>
+                        <li><a href="#">Research</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Sage University Bhopal. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        // Course filtering functionality
+        document.getElementById('filter-btn').addEventListener('click', function() {
+            const level = document.getElementById('level').value;
+            const discipline = document.getElementById('discipline').value;
+            const duration = document.getElementById('duration').value;
+            
+            const categories = document.querySelectorAll('.course-category');
+            
+            categories.forEach(category => {
+                let showCategory = true;
+                
+                // Filter by discipline
+                if (discipline !== 'all') {
+                    const categoryTitle = category.querySelector('.category-title').textContent.toLowerCase();
+                    if (!categoryTitle.includes(discipline)) {
+                        showCategory = false;
+                    }
+                }
+                
+                // Filter courses within category by level and duration
+                const courses = category.querySelectorAll('.detailed-course-card');
+                courses.forEach(course => {
+                    let showCourse = true;
+                    
+                    // Check level (would need data attributes on courses)
+                    // Check duration
+                    if (duration !== 'all') {
+                        const courseDuration = course.querySelector('.duration').textContent;
+                        if (!courseDuration.includes(duration)) {
+                            showCourse = false;
+                        }
+                    }
+                    
+                    course.style.display = showCourse ? 'block' : 'none';
+                });
+                
+                // Hide category if no visible courses
+                const visibleCourses = category.querySelectorAll('.detailed-course-card[style="display: block"]');
+                category.style.display = (showCategory && visibleCourses.length > 0) ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
